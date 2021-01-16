@@ -1,0 +1,94 @@
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.header {
+  margin-bottom: 5px;
+}
+
+
+.link {
+  color: rgb(187, 46, 31);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+
+.meta-info {
+  margin-top: 5px;
+  color: gray;
+}
+
+.meta-info a {
+  color: black;
+}
+
+.meta-info span {
+  margin: 10px 0;
+  margin-right: 6px;
+}
+
+.dark .meta-info {
+  margin-top: 5px;
+  color: gray;
+}
+
+.dark .meta-info a {
+  color: #bebebe;
+}
+
+.dark .meta-info span {
+  margin: 10px 0;
+  margin-right: 6px;
+}
+
+
+.tweetDiv {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+  
+}
+
+img {
+  border-radius: 50%;
+  width:50px;
+}
